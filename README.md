@@ -24,15 +24,36 @@
   
   c. Para este caso particular, ¿por qué cree que es difícil obtener un buen clasificador?
   
-   R/ Incluso al remover la limitación de altura se siguen presentando porcentajes de error considerables, ésto probablemente se debe al desbalanceo de clases dado por la predominancia de salarios medios y bajos, por sobre los salarios altos en el dataset, así que puede ser necesario un mayor preprocesamiento de los datos. Por otra parte, vale la pena revisar si de verdad es relevante la clase objetivo planteada, dado que podría tener más sentido predecir por ejemplo el atributo left, para predecir bajo que condiciones se están retirando los empleados, o tal vez rangos del atributo satisfaction level, para conocer las condiciones que pueden general malestar/bienestar en los empleados y tomar decisiones al respecto. Así mismo hay que revisar que tan relevantes para el caso son atributos como number_project o si debemos ignorarlo y agregar tal vez atributos más importantes en el contexto.
+  R/ Incluso al remover la limitación de altura se siguen presentando porcentajes de error considerables, ésto probablemente se debe al desbalanceo de clases dado por la predominancia de salarios medios y bajos, por sobre los salarios altos en el dataset, así que puede ser necesario un mayor preprocesamiento de los datos. Por otra parte, vale la pena revisar si de verdad es relevante la clase objetivo planteada, dado que podría tener más sentido predecir por ejemplo el atributo left, para predecir bajo que condiciones se están retirando los empleados, o tal vez rangos del atributo satisfaction level, para conocer las condiciones que pueden general malestar/bienestar en los empleados y tomar decisiones al respecto. Así mismo hay que revisar que tan relevantes para el caso son atributos como number_project o si debemos ignorarlo y agregar tal vez atributos más importantes en el contexto.
   
 3. Identificación de géneros musicales: Tenga en cuenta que hay dos scripts: music.ipynb y music-multiclass.ipynb. En el primero se intenta crear un modelo clasificador solo para dos clases (caso binario) y en el segundo se entrena uno para todas las clases (géneros musicales) del dataset.
 
   a. Para el caso binario (jazz and blues vs. soul and reggae) ¿Es posible obtener mejores métricas entrenando un modelo basado en Random Forest?
   
+  R/
+   
   b. Escoja otro par de géneros, entrene un conjunto de modelos y documente los resultados del mejor que se haya obtenido.
+  
+  R/
   
   c. Para el caso multi-clase, ¿cuál es la clase para la que el modelo más se equivoca? ¿Por qué?
   
+  R/
+  
   d. Para el caso multi-clase, el modelo basado en red neuronal parece estar mayoritariamente sesgado hacia un género particular. ¿Cuál género cree que es?
+  
+  R/
+  
+4. Segmentación de cajas de compensación familiar (subsidio):
 
+  a. ¿Qué cajas de compensación parecen ser mayoritariamente diferentes a las demás?
+    
+  R/  
+  
+  b. ¿A partir de qué características utilizadas para el entrenamiento del modelo se podría explicar la razón por la que las cajas anteriores fueron agrupadas en clusters tan pequeños?
+  
+  R/
+  
+  c. ¿Se pueden obtener resultados más homogéneos utilizando cantidades diferentes de clusters para el entrenamiento? Entienda homogeneidad como clusters con cantidades similares de instancias de datos.
+
+  R/
