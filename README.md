@@ -48,7 +48,7 @@
 
   a. ¿Qué cajas de compensación parecen ser mayoritariamente diferentes a las demás?
     
-  R/  
+  R/  Las cajas de compensación presentes en los cluster 1 y 3 parecen ser mayoritariamente diferentes debido al tamaño reducido de sus siluetas en comparación a los clusters 0 y 2, adicionalmente, el cluster 3 tiene un coeficiente menor al promedio en el modelo original.
   
   b. ¿A partir de qué características utilizadas para el entrenamiento del modelo se podría explicar la razón por la que las cajas anteriores fueron agrupadas en clusters tan pequeños?
   
@@ -56,4 +56,4 @@
   
   c. ¿Se pueden obtener resultados más homogéneos utilizando cantidades diferentes de clusters para el entrenamiento? Entienda homogeneidad como clusters con cantidades similares de instancias de datos.
 
-  R/
+  R/ Efectivamente, al aumentar la cantidad de clusters a 7 por ejemplo, se alcanza una mayor homogeneidad entre clusters, sin embargo no se logran resultados cercanos al ideal dado que se presentan clusters vacíos, y siempre hay uno o 2 clusters con cantidades de datos superiores al resto.
