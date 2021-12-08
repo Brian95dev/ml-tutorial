@@ -56,4 +56,4 @@
   
   c. ¿Se pueden obtener resultados más homogéneos utilizando cantidades diferentes de clusters para el entrenamiento? Entienda homogeneidad como clusters con cantidades similares de instancias de datos.
 
-  R/ Efectivamente, al aumentar la cantidad de clusters a 7 por ejemplo, se alcanza una mayor homogeneidad entre clusters, sin embargo no se logran resultados cercanos al ideal dado que se presentan clusters vacíos, y siempre hay uno o 2 clusters con cantidades de datos superiores al resto.
+  R/ No exactamente. Al aumentar el número de clusters uno por uno hasta 9 por ejemplo, se evidencia que es posible alcanzar un mayor nivel de homogeneidad entre la mayoría de los clusters existentes, sin embargo, varios clusters resultan completamente vacíos y por lo menos uno considerablemente más grande que el resto. Por otra parte, al disminuir el número de clusters uno por uno hasta llegar a 2, se incrementa la desigualdad entre clusters, dónde uno resulta mucho más poblado, mientras que 1 o 2 clusters aparte tienen a ser muy pequeños, aunque homogeneos entre ellos.
