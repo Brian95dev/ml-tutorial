@@ -52,7 +52,7 @@
   
   b. ¿A partir de qué características utilizadas para el entrenamiento del modelo se podría explicar la razón por la que las cajas anteriores fueron agrupadas en clusters tan pequeños?
   
-  R/ Este agrupamiento sucede 
+  R/ Este agrupamiento sucede puesto que las cajas de los cluster más pequeños se encuentran mas cerca del centroide de dichos clusters, es decir, los atributos de estas cajas son más similares entre sí, en comparación a las cajas que se en cuentran en el cluster más grandes.
   
   c. ¿Se pueden obtener resultados más homogéneos utilizando cantidades diferentes de clusters para el entrenamiento? Entienda homogeneidad como clusters con cantidades similares de instancias de datos.
 
