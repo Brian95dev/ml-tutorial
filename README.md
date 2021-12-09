@@ -38,11 +38,11 @@
   
   c. Para el caso multi-clase, ¿cuál es la clase para la que el modelo más se equivoca? ¿Por qué?
   
-  R/
+  R/ El modelo tiende a equivocarse más con los géneros que tienen una menor representación en el dataset, en éste caso, la clase para la que más se equivoca es hip-hop
   
   d. Para el caso multi-clase, el modelo basado en red neuronal parece estar mayoritariamente sesgado hacia un género particular. ¿Cuál género cree que es?
   
-  R/
+  R/ Se evidencia un sesgo hacia el género de classic pop and rock, seguramente por que éste incluye a un 40% de los registros, habiendo una diferencia del 18% con el folk, y más del 32% con el resto de géneros.
   
 4. Segmentación de cajas de compensación familiar (subsidio):
 
